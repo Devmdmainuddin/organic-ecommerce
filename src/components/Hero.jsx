@@ -6,7 +6,7 @@ import "swiper/css";
 const Hero = () => {
     return (
         <div>
-            <Swiper className="mySwiper">
+            <Swiper loop={true} className="mySwiper">
                 <SwiperSlide>
                     <Image
                         src="/Group 20500.jpg"
