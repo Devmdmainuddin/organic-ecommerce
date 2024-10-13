@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Navber from "@/components/navber";
+
+
 import Hero from "@/components/Hero";
 import Banefit from "@/components/Banefit";
 import Trending from "@/components/Trending";

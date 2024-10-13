@@ -1,46 +1,4 @@
-import React from 'react';
-import Heading from './heading';
-
-import ProductCard from './card/ProductCard';
-import TrendingSidebar from './sidebar/TrendingSidebar';
-import Container from './Container';
-const Trending = () => {
-    return (
-        <div>
-            <Heading text='Trending Products Category' className='mt-[130px]'></Heading>
-            <Container>
-                <div className='flex gap-6  mt-[50px]'>
-                    <aside>
-                        <TrendingSidebar></TrendingSidebar>
-
-                    </aside>
-                    <main >
-                        <div>
-                            <div className='grid grid-cols-3 gap-4'>
-                                {products?.map((item, index) => <ProductCard key={index} item={item}></ProductCard>)}
-
-                            </div>
-                        </div>
-                    </main>
-                </div>
-
-
-            </Container>
-
-
-        </div>
-    );
-};
-
-export default Trending;
-
-
-
-
-
-
-
-export const products = [
+[
     {
         "id": 1,
         "name": "Wireless Headphones",
@@ -161,6 +119,4 @@ export const products = [
         "rating": 4.6,
         "reviews": 423
     }
-];
- 
-
+]

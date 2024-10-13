@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 const Hero = () => {
     return (
@@ -13,7 +12,7 @@ const Hero = () => {
                         alt="Group 20500"
                         layout="responsive"
                         width={100}
-                        height={50}  // Adjust this value to control the aspect ratio
+                        height={50}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
