@@ -1,5 +1,5 @@
 "use client"
-
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../ProductCard';
 import Image from 'next/image';
@@ -24,28 +24,52 @@ console.log(items);
                     </div>
                 </aside>
                 <main>
-                    <ul className='flex gap-5'>
-                        <li>Top Rated</li>
-                        <li>Best Selling</li>
-                        <li>On Sale</li>
-                    </ul>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
+                    
+                     <Tabs >
+                         <TabList className='flex gap-5'>
+                             <Tab>Top Rated</Tab>
+                             <Tab>Best Selling</Tab>
+                             <Tab>On Sale</Tab>
+                         </TabList>
+                         <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
                        {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
 
-                    </div>
+                    </div></TabPanel>
+                         <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
+                       {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
+
+                    </div></TabPanel>
+                         <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
+                       {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
+
+                    </div></TabPanel>
+                     </Tabs>
+                  
+                    
                 </main>
             </div>
             <div className='flex gap-6 w-[1326px] mx-auto mt-[130px]'>
 
                 <main>
-                    <ul className='flex gap-5'>
-                        <li>Top Rated</li>
-                        <li>Best Selling</li>
-                        <li>On Sale</li>
-                    </ul>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
-                    {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
-                    </div>
+                <Tabs >
+                         <TabList className='flex gap-5'>
+                             <Tab>Top Rated</Tab>
+                             <Tab>Best Selling</Tab>
+                             <Tab>On Sale</Tab>
+                         </TabList>
+                         <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
+                       {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
+
+                    </div></TabPanel>
+                         <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
+                       {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
+
+                    </div></TabPanel>
+                         <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[70px]'>
+                       {items.slice(0,6).map((item,idx)=><ProductCard key={idx} item={item}></ProductCard>)}
+
+                    </div></TabPanel>
+                     </Tabs>
                 </main>
                 <aside className='w-[497px]'>
                     <div className="w-full h-[808px] relative rounded-lg ">

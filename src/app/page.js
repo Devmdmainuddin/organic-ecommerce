@@ -5,6 +5,7 @@ import Banefit from "@/components/Banefit";
 import Trending from "@/components/Trending";
 import FlashDeals from "@/components/card/Home/FlashDeals";
 import Offer from "@/components/card/Home/Offer";
+import Testimonial from "@/components/card/Home/Testimonial";
 export default function Home() {
   return (
     <div className="">
@@ -14,6 +15,7 @@ export default function Home() {
 <Trending></Trending>
 <FlashDeals></FlashDeals>
 <Offer></Offer>
+<Testimonial></Testimonial>
 
 
 
