@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='bg-[#373C33] w-full '>
             <Container>
-                <div className='flex justify-evenly gap-3 py-[130px]'>
+                <div className='flex justify-evenly flex-wrap gap-3 py-[130px]'>
                     <div>
                         <h2 className='text-white font-rye text-2xl font-normal leading-9'>Organic</h2>
                         <div  className='mt-[44px] flex gap-[30px]'>

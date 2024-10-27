@@ -16,8 +16,8 @@ const Offer = () => {
             .catch((error) => console.error('Error fetching data:', error));
     }, []);
     return (
-        <div className='w-[1369px]'>
-            <div className='flex gap-6  flex-col md:flex-row  mx-auto mt-[130px]'>
+        <div className='max-w-[1369px]  mx-auto mt-[130px]'>
+            <div className='flex gap-6  flex-col md:flex-row '>
                 <aside className=''>
                     <div className="w-[497px] h-[808px] relative rounded-lg ">
                         <Image src='/left.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
@@ -32,11 +32,11 @@ const Offer = () => {
                                 <Tab className='text-[#282828] outline-0 transition-all duration-300 pb-[20px]'>Best Selling</Tab>
                                 <Tab className='text-[#282828] outline-0 transition-all duration-300 pb-[20px]'>On Sale</Tab>
                             </TabList>
-                            <TabPanel><div className='flex flex-wrap  gap-5 mt-[50px]'>
+                            <TabPanel><div className='flex flex-wrap justify-between items-center  gap-5 mt-[50px]'>
                                 {items.slice(0, 6).map((item, idx) => <ProductCard key={idx} item={item}></ProductCard>)}
 
                             </div></TabPanel>
-                            <TabPanel><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[50px]'>
+                            <TabPanel><div className='grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-5 mt-[50px]'>
                                 {items.slice(0, 6).map((item, idx) => <ProductCard key={idx} item={item}></ProductCard>)}
 
                             </div></TabPanel>

@@ -9,14 +9,14 @@ const Trending = () => {
         <div className='mt-[130px]'>
             <Heading text='Trending Products Category' ></Heading>
             <Container>
-                <div className='flex gap-6 flex-col md:flex-row  mt-[50px]'>
+                <div className='flex  flex-col md:flex-row gap-6 mt-[50px]'>
                     <aside>
                         <TrendingSidebar></TrendingSidebar>
 
                     </aside>
                     <main >
                         <div>
-                            <div className='flex justify-between flex-wrap gap-6'>
+                            <div className=' flex flex-wrap gap-6'>
                                 {products?.map((item, index) => <ProductCard key={index} item={item}></ProductCard>)}
 
                             </div>
