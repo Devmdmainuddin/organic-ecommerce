@@ -6,17 +6,17 @@ import TrendingSidebar from './sidebar/TrendingSidebar';
 import Container from './Container';
 const Trending = () => {
     return (
-        <div>
-            <Heading text='Trending Products Category' className='mt-[130px]'></Heading>
+        <div className='mt-[130px]'>
+            <Heading text='Trending Products Category' ></Heading>
             <Container>
-                <div className='flex gap-6  mt-[50px]'>
+                <div className='flex gap-6 flex-col md:flex-row  mt-[50px]'>
                     <aside>
                         <TrendingSidebar></TrendingSidebar>
 
                     </aside>
                     <main >
                         <div>
-                            <div className='grid grid-cols-3 gap-4'>
+                            <div className='flex justify-between flex-wrap gap-6'>
                                 {products?.map((item, index) => <ProductCard key={index} item={item}></ProductCard>)}
 
                             </div>
@@ -26,8 +26,6 @@ const Trending = () => {
 
 
             </Container>
-
-
         </div>
     );
 };
