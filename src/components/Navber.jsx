@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Container from './Container';
 import { CiSearch, CiShoppingBasket } from "react-icons/ci";
+import Image from 'next/image';
 const Navber = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navber = () => {
                 <Container>
 
                     <div className=" px-4 py-2">
-                        <p className="text-sm text-center text-white">Free shipping for all order of $105</p>
+                        <p className="text-sm  text-white">Free shipping for all order of $105</p>
                     </div>
 
                 </Container>
@@ -23,7 +24,7 @@ const Navber = () => {
                 <div className='flex justify-between items-center'>
                     {/* Logo */}
                     <h1 className="text-2xl font-bold">
-                        <Link href="./index.html" className="logo">Organ<span className="text-green-600">ica</span></Link>
+                        <Link href="./index.html" className="logo"> <Image src='/logo.png' alt='logo' width={100} height={100}></Image></Link>
                     </h1>
 
 
