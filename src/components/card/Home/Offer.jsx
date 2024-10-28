@@ -8,7 +8,7 @@ const Offer = () => {
     const [items, setItems] = useState([]);
     console.log(items);
     useEffect(() => {
-        fetch('/fakeData.json')  // Fetch the JSON file from the public directory
+        fetch('/fakeData.json')  
             .then((res) => res.json())
             .then((data) => {
                 setItems(data);

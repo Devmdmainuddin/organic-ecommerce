@@ -11,6 +11,10 @@
     
     border-bottom: 2px solid #F47606;
 }
+.trending .react-tabs__tab--selected {
+    color:#F47606;
+  border-bottom: 2px solid #F47606;
+}
 
  .swiper-button-prev {
     
