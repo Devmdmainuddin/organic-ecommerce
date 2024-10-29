@@ -1,6 +1,10 @@
+import Banner01 from "@/components/banner/Banner01";
 import Banner03 from "@/components/banner/Banner03";
 import Container from "@/components/Container";
+import Deals from "@/components/Deals";
 import Hero01 from "@/components/Hero01";
+import TopProducts from "@/components/TopProducts";
+import TopSelling from "@/components/TopSelling";
 import TrendingSections from "@/components/TrendingSections";
 import Image from "next/image";
 
@@ -25,6 +29,10 @@ const page = () => {
                         className="w-full h-full"
                     />
                 </div>
+                <Deals></Deals>
+                <TopProducts></TopProducts>
+                <TopSelling></TopSelling>
+                <Banner01></Banner01>
        
         </div>
     );

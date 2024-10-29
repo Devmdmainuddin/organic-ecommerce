@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
-import ProductCard from "./card/ProductCard";
+import ProductCard from "./card/productCard1";
 import Container from "./Container";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
