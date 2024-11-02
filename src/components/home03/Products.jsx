@@ -1,9 +1,9 @@
 "use client"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import ProductCard3 from "./card/ProductCard3";
-import Container from "./Container";
+import ProductCard3 from "../card/ProductCard3";
+import Container from "../Container";
 
-const CategoryProdects = () => {
+const Products = () => {
     return (
         <div className="mt-[130px]">
             <Container>
@@ -11,14 +11,11 @@ const CategoryProdects = () => {
 
                 <Tabs >
                     <div className="flex flex-col md:flex-row justify-between items-center">
-                        <h2 className="text-[#282828] font-inter text-[35px] font-bold leading-[42px]">All Category Product</h2>
+                        <h2 className="text-[#282828] font-inter text-[35px] font-bold leading-[42px]"> Product</h2>
                         <TabList className='flex gap-6 trending justify-center my-10'>
-                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Vegetables</Tab>
-                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Food</Tab>
-                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Fruits</Tab>
-                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Organic</Tab>
-                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Elementum</Tab>
-
+                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Most View Products</Tab>
+                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0"> Bestseller Product</Tab>
+                            <Tab className=" text-gray-600 font-inter text-base font-normal leading-7 tracking-normal hover:text-[#F47606] transition-all duration-500 outline-0">Top ratting Product</Tab>
                         </TabList>
                     </div>
 
@@ -44,8 +41,7 @@ const CategoryProdects = () => {
     );
 };
 
-export default CategoryProdects;
-
+export default Products;
 
 export const products = [
     {

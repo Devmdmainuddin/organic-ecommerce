@@ -8,7 +8,7 @@ const Hero01 = () => {
             <Container>
                 <div className='flex gap-6 flex-col lg:flex-row'>
                     <div>
-                        <div className="relative w-full lg:w-[468px] xl:w-[558px]  h-[700px]">
+                        <div className="relative w-full lg:w-[468px] xl:w-[558px]  md:h-[700px]">
                             {/*    */}
                             <Image src="/h1.jpeg" alt="" layout="fill"   objectFit="cover"  className='' />
                         </div>
