@@ -6,6 +6,7 @@ import Choose from '@/components/Choose';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import Deal from '@/components/home03/Deal';
 import Products from '@/components/home03/Products';
+import Testimonial from '@/components/home03/Testimonial';
 import TopProducts from '@/components/home03/TopProducts';
 import SingleBanner from '@/components/SingleBanner';
 import React from 'react';
@@ -23,6 +24,7 @@ const page = () => {
         <Deal></Deal>
         <TopProducts></TopProducts>
         <Products></Products>
+        <Testimonial></Testimonial>
         </div>
     );
 };

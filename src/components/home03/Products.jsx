@@ -21,17 +21,17 @@ const Products = () => {
 
                     <TabPanel>
                         <div className="flex flex-wrap justify-center gap-6 mt-[50px]">
-                            {products?.slice(0, 6).map((item, index) => <ProductCard3 key={index} item={item}></ProductCard3>)}
+                            {products?.slice(0, 8).map((item, index) => <ProductCard3 key={index} item={item}></ProductCard3>)}
                         </div>
                     </TabPanel>
                     <TabPanel>
                         <div className="flex flex-wrap justify-center gap-6 mt-[50px]">
-                            {products?.slice(0, 6).map((item, index) => <ProductCard3 key={index} item={item}></ProductCard3>)}
+                            {products?.slice(0, 8).map((item, index) => <ProductCard3 key={index} item={item}></ProductCard3>)}
                         </div>
                     </TabPanel>
                     <TabPanel>
                         <div className="flex flex-wrap justify-center gap-6 mt-[50px]">
-                            {products?.slice(0, 6).map((item, index) => <ProductCard3 key={index} item={item}></ProductCard3>)}
+                            {products?.slice(0, 8).map((item, index) => <ProductCard3 key={index} item={item}></ProductCard3>)}
                         </div>
                     </TabPanel>
                 </Tabs>

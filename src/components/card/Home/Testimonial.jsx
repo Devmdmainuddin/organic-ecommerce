@@ -33,7 +33,7 @@ const Testimonial = () => {
                                 <span><FaStar /></span>
                                 <span><FaStar /></span>
                             </div>
-                            <p class="text-gray-600 font-normal text-base leading-[28px] mt-[30px]">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p className="text-gray-600 font-normal text-base leading-[28px] mt-[30px]">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div className='flex gap-[27px] mt-[23px]'>
                                 <div className="image">
                                     <div className="w-[49px] h-[49px] relative rounded-full ">
