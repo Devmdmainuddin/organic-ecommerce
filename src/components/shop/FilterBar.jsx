@@ -10,9 +10,9 @@ const FilterBar = () => {
             <Container>
                 <div className='flex flex-col md:flex-row justify-between items-center mt-[130px]   gap-6'>
                  
-                        <div className='relative'>
-                            <input type="text" name="" id="" placeholder='Search products' className='border outline-0 rounded-md py-3 px-5'/>
-                            <CiSearch  className='absolute top-1/2 -translate-y-1/2 right-2'/>
+                        <div className='relative w-[364px]'>
+                            <input type="text" name="" id="" placeholder='Search products' className='w-full border outline-0 rounded-[10px] py-3 px-5'/>
+                            <CiSearch  className='absolute top-1/2 -translate-y-1/2 right-5'/>
                         </div>
                    
                     <div className="filter flex flex-wrap gap-6">
