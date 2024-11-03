@@ -4,6 +4,7 @@ import CategoryProdects from '@/components/CategoryProdects';
 import CategorySlider from '@/components/CategorySlider';
 import Choose from '@/components/Choose';
 import FeaturedProducts from '@/components/FeaturedProducts';
+import Blog from '@/components/home03/Blog';
 import Deal from '@/components/home03/Deal';
 import Products from '@/components/home03/Products';
 import Testimonial from '@/components/home03/Testimonial';
@@ -25,6 +26,8 @@ const page = () => {
         <TopProducts></TopProducts>
         <Products></Products>
         <Testimonial></Testimonial>
+
+        <Blog></Blog>
         </div>
     );
 };
