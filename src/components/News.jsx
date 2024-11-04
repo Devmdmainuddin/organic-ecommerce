@@ -13,7 +13,7 @@ const News = () => {
                     <div className="mt-[50px] w-[364px]">
                         <div className="relative w-[364px] h-[193px] ">
                             <p className="text-white absolute bottom-6 left-6 font-inter text-[16px] font-normal leading-[19px] bg-[#F47606] py-2 px-4 z-20">Vegetable</p>
-                            <Image src='/bl.jpg' alt='product' layout="fill" objectFit="cover" className=' ' />
+                            <Image src='/bl.jpg' alt='product' fill objectFit="cover" className=' ' />
                         </div>
                         <h2 className="text-[#363636] font-inter text-[20px] font-semibold leading-[28px] mt-6">Green Onion Knife and
                             salad placed</h2>
@@ -24,7 +24,7 @@ const News = () => {
                     <div className="mt-[50px] w-[364px]">
                         <div className="relative w-[364px] h-[193px] ">
                         <p className="text-white absolute bottom-6 left-6 font-inter text-[16px] font-normal leading-[19px] bg-[#F47606] py-2 px-4 z-20">Vegetable</p>
-                            <Image src='/bl.jpg' alt='product' layout="fill" objectFit="cover" className=' ' />
+                            <Image src='/bl.jpg' alt='product' fill objectFit="cover" className=' ' />
                         </div>
                         <h2 className="text-[#363636] font-inter text-[20px] font-semibold leading-[28px] mt-6">Green Onion Knife and
                             salad placed</h2>
@@ -35,7 +35,7 @@ const News = () => {
                     <div className="mt-[50px] w-[364px]">
                         <div className="relative w-[364px] h-[193px] ">
                         <p className="text-white absolute bottom-6 left-6 font-inter text-[16px] font-normal leading-[19px] bg-[#F47606] py-2 px-4 z-20">Vegetable</p>
-                            <Image src='/bl.jpg' alt='product' layout="fill" objectFit="cover" className=' ' />
+                            <Image src='/bl.jpg' alt='product' fill objectFit="cover" className=' ' />
                         </div>
                         <h2 className="text-[#363636] font-inter text-[20px] font-semibold leading-[28px] mt-6">Green Onion Knife and
                             salad placed</h2>

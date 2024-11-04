@@ -12,7 +12,7 @@ const ProductCard2 = ({ item }) => {
             <div className='  flex gap-1  items-center '>
                 <div>
                     <div className="relative w-[169px] h-[210px] ">
-                        <Image src={item?.image} alt='product' layout="fill" objectFit="cover" className=' ' />
+                        <Image src={item?.image} alt='product' fill objectFit="cover" className=' ' />
                     </div>
                     <div className="w-[364px] h-[210px] group-hover:opacity-100 opacity-0 absolute left-0 top-0 bg-[#282828CC]  transition-all duration-500 z-50">
             </div>

@@ -18,7 +18,7 @@ const ProductCard = ({item}) => {
                     </ul>
                 </div>
 
-                <Image src={item?.image} alt='product' layout="fill" objectFit="cover" className=' rounded-[25px]' />
+                <Image src={item?.image} alt='product' fill objectFit="cover" className=' rounded-[25px]' />
             </div>
 
          <Link href={`/products/${item?.slug}`}><h2 className="text-[20px] font-semibold leading-[24px] tracking-[0%] text-center text-[#282828] mt-5 hover:text-[#F47606] transition-all duration-500">{item?.name}</h2></Link>   

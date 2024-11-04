@@ -8,15 +8,15 @@ const Banner03 = () => {
             <Container>
                 <div className='flex flex-wrap justify-center  gap-6'>
                     <div className="relative  w-[364px] h-[250px]">
-                        <Image src="/h4.jpeg" alt="" layout="fill" objectFit="cover" className=""
+                        <Image src="/h4.jpeg" alt="" fill objectFit="cover" className=""
                         />
                     </div>
                     <div className="relative  w-[364px] h-[250px]">
-                        <Image src="/h4.jpeg" alt="" layout="fill" objectFit="cover" className=""
+                        <Image src="/h4.jpeg" alt="" fill objectFit="cover" className=""
                         />
                     </div>
                     <div className="relative  w-[364px] h-[250px]">
-                        <Image src="/h4.jpeg" alt="" layout="fill" objectFit="cover" className=""
+                        <Image src="/h4.jpeg" alt="" fill objectFit="cover" className=""
                         />
                     </div>
                 </div>

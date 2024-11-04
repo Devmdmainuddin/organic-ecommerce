@@ -31,7 +31,7 @@ const Feedback = () => {
                         <p className="mt-[30px] text-[#6c6c6c] font-inter text-[16px] font-normal leading-[28px]">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <div className="flex gap-[27px] mt-5">
                             <div className="relative w-[59px] h-[59px] rounded-full">
-                                <Image src='/men.jpg' alt='product' layout="fill" objectFit="cover " className='rounded-full ' />
+                                <Image src='/men.jpg' alt='product' fill objectFit="cover " className='rounded-full ' />
                             </div>
                             <div className="flex gap-3">
                                 <div>
@@ -40,7 +40,7 @@ const Feedback = () => {
                                 </div>
                          
                             <div className="relative w-[61px] h-[43px] ">
-                                <Image src='/qut.png' alt='product' layout="fill" objectFit="cover " className='' />
+                                <Image src='/qut.png' alt='product' fill objectFit="cover " className='' />
                             </div>
                             </div>
                            
@@ -70,7 +70,7 @@ const Feedback = () => {
                         <p className="mt-[30px] text-[#6c6c6c] font-inter text-[16px] font-normal leading-[28px]">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <div className="flex gap-[27px] mt-5">
                             <div className="relative w-[59px] h-[59px] rounded-full">
-                                <Image src='/men.jpg' alt='product' layout="fill" objectFit="cover " className='rounded-full ' />
+                                <Image src='/men.jpg' alt='product' fill objectFit="cover " className='rounded-full ' />
                             </div>
                             <div className="flex gap-3">
                                 <div>
@@ -79,7 +79,7 @@ const Feedback = () => {
                                 </div>
                          
                             <div className="relative w-[61px] h-[43px] ">
-                                <Image src='/qut.png' alt='product' layout="fill" objectFit="cover " className='' />
+                                <Image src='/qut.png' alt='product' fill objectFit="cover " className='' />
                             </div>
                             </div>
                            

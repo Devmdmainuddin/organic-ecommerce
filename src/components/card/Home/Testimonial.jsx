@@ -24,7 +24,7 @@ const Testimonial = () => {
                         <div className="content w-[483px] h-[335px] ">
                             <h2 class="text-gray-800 font-bold text-3xl leading-[42px]">Testimonial</h2>
                             <div className="w-[62px] h-[43px] relative  mt-7 mb-8 ">
-                                <Image src='/qut.png' alt='' layout="fill" objectFit="cover" className=''></Image>
+                                <Image src='/qut.png' alt='' fill objectFit="cover" className=''></Image>
                             </div>
                             <div className='flex gap-2 text-[#FFC24B]'>
                                 <span><FaStar /></span>
@@ -37,7 +37,7 @@ const Testimonial = () => {
                             <div className='flex gap-[27px] mt-[23px]'>
                                 <div className="image">
                                     <div className="w-[49px] h-[49px] relative rounded-full ">
-                                        <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                        <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                                     </div>
                                 </div>
                                 <div className="container">
@@ -50,7 +50,7 @@ const Testimonial = () => {
                         </div>
                         <div className="image">
                             <div className="w-[404px] h-[404px] relative rounded-lg ">
-                                <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Testimonial = () => {
                         <div className="content w-[483px] h-[335px] ">
                             <h2 class="text-gray-800 font-bold text-3xl leading-[42px]">Testimonial</h2>
                             <div className="w-[62px] h-[43px] relative  mt-7 mb-8 ">
-                                <Image src='/qut.png' alt='' layout="fill" objectFit="cover" className=''></Image>
+                                <Image src='/qut.png' alt='' fill objectFit="cover" className=''></Image>
                             </div>
                             <div className='flex gap-2 text-[#FFC24B]'>
                                 <span><FaStar /></span>
@@ -73,7 +73,7 @@ const Testimonial = () => {
                             <div className='flex gap-[27px] mt-[23px]'>
                                 <div className="image">
                                     <div className="w-[49px] h-[49px] relative rounded-full ">
-                                        <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                        <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                                     </div>
                                 </div>
                                 <div className="container">
@@ -86,7 +86,7 @@ const Testimonial = () => {
                         </div>
                         <div className="image">
                             <div className="w-[404px] h-[404px] relative rounded-lg ">
-                                <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const Testimonial = () => {
                         <div className="content w-[483px] h-[335px] ">
                             <h2 class="text-gray-800 font-bold text-3xl leading-[42px]">Testimonial</h2>
                             <div className="w-[62px] h-[43px] relative  mt-7 mb-8 ">
-                                <Image src='/qut.png' alt='' layout="fill" objectFit="cover" className=''></Image>
+                                <Image src='/qut.png' alt='' fill objectFit="cover" className=''></Image>
                             </div>
                             <div className='flex gap-2 text-[#FFC24B]'>
                                 <span><FaStar /></span>
@@ -109,7 +109,7 @@ const Testimonial = () => {
                             <div className='flex gap-[27px] mt-[23px]'>
                                 <div className="image">
                                     <div className="w-[49px] h-[49px] relative rounded-full ">
-                                        <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                        <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                                     </div>
                                 </div>
                                 <div className="container">
@@ -122,7 +122,7 @@ const Testimonial = () => {
                         </div>
                         <div className="image">
                             <div className="w-[404px] h-[404px] relative rounded-lg ">
-                                <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                             </div>
                         </div>
                     </div>

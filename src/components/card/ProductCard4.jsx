@@ -19,7 +19,7 @@ const ProductCard4 = ({ item }) => {
                     </ul>
                 </div>
 
-                <Image src={item?.image} alt='product' layout="fill" objectFit="cover" className=' ' />
+                <Image src={item?.image} alt='product' fill objectFit="cover" className=' ' />
                 
             </div>
             <div className='flex justify-center items-center flex-col py-6'>

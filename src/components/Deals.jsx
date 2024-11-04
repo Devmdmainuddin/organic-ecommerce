@@ -13,7 +13,7 @@ const Deals = () => {
                         <div className="image">
                             <div className="relative w-full  xl:w-[562px]  h-[383px]">
 
-                                <Image src="/dl.jpg" alt="" layout="fill" objectFit="cover" className='' />
+                                <Image src="/dl.jpg" alt="" fill objectFit="cover" className='' />
                             </div>
                         </div>
                         <div className="container flex justify-center items-center flex-col">
@@ -43,7 +43,7 @@ const Deals = () => {
                         <div className="image">
                             <div className="relative w-full  xl:w-[562px]  h-[383px]">
 
-                                <Image src="/dl2.jpg" alt="" layout="fill" objectFit="cover" className='' />
+                                <Image src="/dl2.jpg" alt="" fill objectFit="cover" className='' />
                             </div>
                         </div>
                         <div className="container flex justify-center items-center flex-col">

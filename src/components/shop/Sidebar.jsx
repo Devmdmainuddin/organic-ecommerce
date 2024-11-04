@@ -55,7 +55,7 @@ const Sidebar = () => {
                             <div className='flex flex-col gap-6 mt-5'>
                                 <div className="w-[267px] flex items-center gap-4">
                                     <div className="relative  w-[94px] h-[94px]  ">
-                                        <Image src='/ca4.jpg' alt='image' layout="fill" objectFit="cover" ></Image>
+                                        <Image src='/ca4.jpg' alt='image' fill objectFit="cover" ></Image>
                                     </div>
                                     <div className="content">
                                         <h2 className="text-[#282828] font-sans text-[20px] font-semibold leading-[24px]">Organic Juice</h2>
@@ -66,7 +66,7 @@ const Sidebar = () => {
                                 </div>
                                 <div className="w-[267px] flex items-center gap-4">
                                     <div className="relative  w-[94px] h-[94px]  ">
-                                        <Image src='/bbb.jpg' alt='image' layout="fill" objectFit="cover" ></Image>
+                                        <Image src='/bbb.jpg' alt='image' fill objectFit="cover" ></Image>
                                     </div>
                                     <div className="content">
                                         <h2 className="text-[#282828] font-sans text-[20px] font-semibold leading-[24px]">Fresh Vegetable</h2>
@@ -77,7 +77,7 @@ const Sidebar = () => {
                                 </div>
                                 <div className="w-[267px] flex items-center gap-4">
                                     <div className="relative  w-[94px] h-[94px]  ">
-                                        <Image src='/ca3.jpg' alt='image' layout="fill" objectFit="cover" ></Image>
+                                        <Image src='/ca3.jpg' alt='image' fill objectFit="cover" ></Image>
                                     </div>
                                     <div className="content">
                                         <h2 className="text-[#282828] font-sans text-[20px] font-semibold leading-[24px]">Organic Cabage</h2>

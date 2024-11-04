@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Offer = () => {
     const [items, setItems] = useState([]);
-    console.log(items);
+
     useEffect(() => {
         fetch('/fakeData.json')  
             .then((res) => res.json())
@@ -20,7 +20,7 @@ const Offer = () => {
             <div className='flex gap-6  flex-col md:flex-row '>
                 <aside className=''>
                     <div className="w-[497px] h-[808px] relative rounded-lg ">
-                        <Image src='/left.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                        <Image src='/left.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                     </div>
                 </aside>
                 <main className=''>
@@ -78,7 +78,7 @@ const Offer = () => {
                     </main>
                     <aside className='w-[497px]'>
                         <div className="w-full h-[808px] relative rounded-lg ">
-                            <Image src='/left.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                            <Image src='/left.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                         </div>
                     </aside>
                 </div> */}

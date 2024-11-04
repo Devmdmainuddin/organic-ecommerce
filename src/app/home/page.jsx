@@ -22,7 +22,7 @@ const page = () => {
                 <Image
                     src="/sin.jpeg"
                     alt="Your description"
-                    layout="fill"
+                    fill
                     objectFit="cover"
                     className="w-full h-full"
                 />

@@ -9,7 +9,7 @@ const SingleBanner = () => {
                 <Image
                     src="/sin.jpeg"
                     alt="banner image"
-                    layout="fill"
+                    fill
                     objectFit="cover"
                     priority={true}
                 />

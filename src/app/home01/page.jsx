@@ -26,7 +26,6 @@ const page = () => {
         <TopProducts></TopProducts>
         <Products></Products>
         <Testimonial></Testimonial>
-
         <Blog></Blog>
         </div>
     );

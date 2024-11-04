@@ -9,12 +9,12 @@ const Banner01 = () => {
                 <div className="mt-[50px] flex flex-wrap gap-[18px] justify-center">
                     <div className="image">
                         <div className="relative w-[558px]  h-[300px]">
-                            <Image src="/ban1.jpeg" alt="" layout="fill" objectFit="cover" className="" />
+                            <Image src="/ban1.jpeg" alt="" fill objectFit="cover" className="" />
                         </div>
                     </div>
                     <div className="image">
                     <div className="relative w-[558px]  h-[300px]">
-                            <Image src="/ban1.jpeg" alt="" layout="fill" objectFit="cover" className="" />
+                            <Image src="/ban1.jpeg" alt="" fill objectFit="cover" className="" />
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ const Choose = () => {
                     <div className="w-[356px]">
                         <div className="image">
                             <div className="relative mx-auto w-[52px]  h-[53px]">
-                                <Image src="/c1.png" alt="" layout="fill" objectFit="cover" className='' />
+                                <Image src="/c1.png" alt="" fill objectFit="cover"  />
                             </div>
                         </div>
                         <div className="content mt-[30px]">
@@ -24,7 +24,7 @@ const Choose = () => {
                     <div className="w-[356px]">
                         <div className="image">
                             <div className="relative mx-auto w-[52px]  h-[53px]">
-                                <Image src="/c2.png" alt="" layout="fill" objectFit="cover" className='' />
+                                <Image src="/c2.png" alt="" fill objectFit="cover" className='' />
                             </div>
                         </div>
                         <div className="content mt-[30px]">
@@ -36,7 +36,7 @@ const Choose = () => {
                     <div className="w-[356px]">
                         <div className="image">
                             <div className="relative mx-auto w-[52px]  h-[53px]">
-                                <Image src="/c3.png" alt="" layout="fill" objectFit="cover" className='' />
+                                <Image src="/c3.png" alt="" fill objectFit="cover"  />
                             </div>
                         </div>
                         <div className="content mt-[30px]">

@@ -14,13 +14,13 @@ const Testimonial = () => {
                 <div className="flex gap-6 mt-[50px] flex-col md:flex-row items-center">
                     <div className="py-[76px] px-[45px] border">
                         <div className="relative w-[50px] h-[42px]">
-                            <Image src='/qut3.png' alt='product' layout="fill" objectFit="cover" className=' ' />
+                            <Image src='/qut3.png' alt='product' fill objectFit="cover" className=' ' />
                         </div>
                         <p className="text-[#676767] font-inter text-[16px] font-normal leading-[28px] my-[30px] max-w-[563px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. </p>
                         <div className='flex gap-[27px]'>
                             <div className="image">
                                 <div className="w-[49px] h-[49px] relative rounded-full ">
-                                    <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                    <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                                 </div>
                             </div>
                             <div className="container">
@@ -37,7 +37,7 @@ const Testimonial = () => {
                             <div className='flex gap-[27px] '>
                                 <div className="image">
                                     <div className="w-[49px] h-[49px] relative rounded-full ">
-                                        <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                        <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                                     </div>
                                 </div>
                                 <div className="container">
@@ -47,7 +47,7 @@ const Testimonial = () => {
 
                             </div>
                             <div className="relative w-[50px] h-[42px]">
-                            <Image src='/qut3.png' alt='product' layout="fill" objectFit="cover" className=' ' />
+                            <Image src='/qut3.png' alt='product' fill objectFit="cover" className=' ' />
                         </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const Testimonial = () => {
                             <div className='flex gap-[27px]'>
                                 <div className="image">
                                     <div className="w-[49px] h-[49px] relative rounded-full ">
-                                        <Image src='/men.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                                        <Image src='/men.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                                     </div>
                                 </div>
                                 <div className="container">
@@ -67,7 +67,7 @@ const Testimonial = () => {
 
                             </div>
                             <div className="relative w-[50px] h-[42px]">
-                            <Image src='/qut3.png' alt='product' layout="fill" objectFit="cover" className=' ' />
+                            <Image src='/qut3.png' alt='product' fill objectFit="cover" className=' ' />
                         </div>
                         </div>
                     </div>

@@ -15,10 +15,10 @@ const TrendingSidebar = () => {
                 </ul>
 
                 <div className="w-full h-[447px] relative rounded-[25px] mt-10">
-                <Image src='/t-1.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                <Image src='/t-1.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                 </div>
                 <div className="w-full h-[447px] relative rounded-[25px] mt-10">
-                <Image src='/t-2.jpg' alt='' layout="fill" objectFit="cover" className=' rounded-[25px]'></Image>
+                <Image src='/t-2.jpg' alt='' fill objectFit="cover" className=' rounded-[25px]'></Image>
                 </div>
 
             </div>

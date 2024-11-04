@@ -11,7 +11,7 @@ const CategorySlider = () => {
           <div className="relative  w-[170px] h-[141px]  ">
             <Image src='/ca1.jpg'
               alt='image'
-              layout="fill"
+              fill
               objectFit="cover"
               className="w-full h-full rounded-[10px]"></Image>
           </div>
@@ -22,7 +22,7 @@ const CategorySlider = () => {
           <div className="relative  w-[170px] h-[141px]  ">
             <Image src='/ca2.jpg'
               alt='image'
-              layout="fill"
+              fill
               objectFit="cover"
               className="w-full h-full rounded-[10px]"></Image>
           </div>
@@ -33,7 +33,7 @@ const CategorySlider = () => {
           <div className="relative  w-[170px] h-[141px]  ">
             <Image src='/ca4.jpg'
               alt='image'
-              layout="fill"
+              fill
               objectFit="cover"
               className="w-full h-full rounded-[10px]"></Image>
           </div>
@@ -44,7 +44,7 @@ const CategorySlider = () => {
           <div className="relative  w-[170px] h-[141px]  ">
             <Image src='/ca5.jpg'
               alt='image'
-              layout="fill"
+              fill
               objectFit="cover"
               className="w-full h-full rounded-[10px]"></Image>
           </div>
@@ -55,7 +55,7 @@ const CategorySlider = () => {
           <div className="relative  w-[170px] h-[141px]  ">
             <Image src='/ca3.jpg'
               alt='image'
-              layout="fill"
+              fill
               objectFit="cover"
               className="w-full h-full rounded-[10px]"></Image>
           </div>
@@ -66,7 +66,7 @@ const CategorySlider = () => {
           <div className="relative  w-[170px] h-[141px]  ">
             <Image src='/ca6.jpg'
               alt='image'
-              layout="fill"
+              fill
               objectFit="cover"
               className="w-full h-full rounded-[10px]"></Image>
           </div>

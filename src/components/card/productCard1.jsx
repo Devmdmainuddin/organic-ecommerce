@@ -19,7 +19,7 @@ const productCard1 = ({ item }) => {
                     </ul>
                 </div>
 
-                <Image src={item?.image} alt='product' layout="fill" objectFit="cover" className=' ' />
+                <Image src={item?.image} alt='product' fill objectFit="cover" className=' ' />
             </div>
             <div className='flex justify-center items-center flex-col'>
                 <Link href={`/products/${item?.slug}`} > <h2 className="text-[20px] font-semibold leading-[24px] tracking-[0%] text-center text-[#282828] mt-5 hover:text-[#F47606] transition-all duration-500">{item?.name}</h2></Link>

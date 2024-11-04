@@ -16,7 +16,7 @@ const Deal = () => {
                 </ul>
                 </div>
                 <div className="relative w-full h-[300px] md:h-[350px] lg:h-[450px] mt-[50px]">
-                <Image src='/H3BAN.jpeg' alt='product' layout="fill" objectFit="cover" className=' ' />
+                <Image src='/H3BAN.jpeg' alt='product' fill objectFit="cover" className=' ' />
             </div>
                 
             </Container>
