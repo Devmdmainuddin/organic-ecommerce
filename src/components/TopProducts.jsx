@@ -1,5 +1,5 @@
 import productData from "../app/httpActions/product/data";
-import ProductCard1 from "./card/productCard1"
+import ProductCard01 from "./card/ProductCard01";
 import Container from "./Container";
 
 const TopProducts = () => {
@@ -12,7 +12,7 @@ const TopProducts = () => {
         <div>
           <div className=" flex flex-wrap gap-6 mt-[50px]">
             {productData?.slice(0, 4).map((item, index) => (
-              <ProductCard1 key={index} item={item}></ProductCard1>
+              <ProductCard01 key={index} item={item}></ProductCard01>
             ))}
           </div>
         </div>

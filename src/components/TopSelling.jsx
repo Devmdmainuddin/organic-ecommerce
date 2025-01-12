@@ -1,5 +1,6 @@
 
-import ProductCard1 from "./card/ProductCard1";
+import ProductCard01 from "./card/ProductCard01";
+
 import Container from "./Container";
 
 const TopSelling = () => {
@@ -9,7 +10,7 @@ const TopSelling = () => {
                 <h2 className="text-[#282828] font-inter text-[35px] font-bold leading-[42px]">Top Selling Products</h2>
                 <div>
                     <div className=' flex flex-wrap gap-6 mt-[50px]'>
-                        {products?.slice(0, 4).map((item, index) => <ProductCard1 key={index} item={item}></ProductCard1>)}
+                        {products?.slice(0, 4).map((item, index) => <ProductCard01 key={index} item={item}></ProductCard01>)}
 
                     </div>
                 </div>

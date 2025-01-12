@@ -5,7 +5,7 @@ import { CiShoppingBasket } from 'react-icons/ci';
 import { FaRegHeart, FaStar } from 'react-icons/fa';
 import { IoEyeOutline } from 'react-icons/io5';
 
-const ProductCard1 = ({ item }) => {
+const ProductCard01 = ({ item }) => {
     return (
         <div className='group overflow-hidden'>
             <div className="image w-[267px] h-[264px] relative">
@@ -48,4 +48,4 @@ const ProductCard1 = ({ item }) => {
     );
 };
 
-export default ProductCard1;
+export default ProductCard01;
