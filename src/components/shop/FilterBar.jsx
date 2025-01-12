@@ -4,14 +4,14 @@ import { IoGrid } from 'react-icons/io5';
 import Container from '../Container';
 import { CiSearch } from 'react-icons/ci';
 
-const FilterBar = () => {
+const FilterBar = ({handleByNew,handleByOld,handleSearch}) => {
     return (
         <div>
             <Container>
                 <div className='flex flex-col md:flex-row justify-between items-center mt-[130px]   gap-6'>
                  
                         <div className='relative w-[364px]'>
-                            <input type="text" name="" id="" placeholder='Search products' className='w-full border outline-0 rounded-[10px] py-3 px-5'/>
+                            <input onChange={(e) => handleSearch(e.target.value)} type="text" name="Search" id="" placeholder='Search products' className='w-full border outline-0 rounded-[10px] py-3 px-5'/>
                             <CiSearch  className='absolute top-1/2 -translate-y-1/2 right-5'/>
                         </div>
                    

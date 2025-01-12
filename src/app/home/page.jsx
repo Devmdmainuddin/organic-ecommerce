@@ -1,6 +1,5 @@
 import Banner01 from "@/components/banner/Banner01";
 import Banner03 from "@/components/banner/Banner03";
-import Container from "@/components/Container";
 import Deals from "@/components/Deals";
 import DiscoverProducts from "@/components/DiscoverProducts";
 import Feedback from "@/components/Feedback";
@@ -15,18 +14,10 @@ import Image from "next/image";
 const page = () => {
     return (
         <div>
-            <Hero01></Hero01>
-            <Banner03></Banner03>
-            <TrendingSections></TrendingSections>
-            <div className="relative w-full h-[400px] mt-[130px]">
-                <Image
-                    src="/sin.jpeg"
-                    alt="Your description"
-                    fill
-                    objectFit="cover"
-                    className="w-full h-full"
-                />
-            </div>
+          
+            
+         
+           
             <Deals></Deals>
             <TopProducts></TopProducts>
             <TopSelling></TopSelling>

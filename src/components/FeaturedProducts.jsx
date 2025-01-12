@@ -1,9 +1,12 @@
 import Link from "next/link";
 import Container from "./Container";
 import ProductCard3 from "./card/ProductCard3";
+import { getProduct } from "@/services/productApi";
 
 
-const FeaturedProducts = () => {
+const FeaturedProducts =async () => {
+    const products = await getProduct()
+    console.log(products);
     return (
         <div className="mt-[130px]">
             <Container>

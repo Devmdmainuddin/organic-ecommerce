@@ -8,14 +8,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 const TrendingSections = () => {
     const [items, setItems] = useState([]);
     console.log(items);
-    useEffect(() => {
-        fetch('/fakeData.json')  
-            .then((res) => res.json())
-            .then((data) => {
-                setItems(data);
-            })
-            .catch((error) => console.error('Error fetching data:', error));
-    }, []);
+  
     return (
         <div className="mt-[130px]">
             <Container>

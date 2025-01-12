@@ -7,7 +7,7 @@
     font-family: "Inter", sans-serif;
 }
 
-.react-tabs__tab--selected {
+.offer .react-tabs__tab--selected {
     
     border-bottom: 2px solid #F47606;
 }
@@ -66,12 +66,12 @@
 @media only screen and (min-width: 768px) {
   .swiper-button-next {
     top: 83% !important; 
-    left: 125px ! important;
+    left: 30px ! important;
     /* transform: translateX(50%)!important; */
   }
   .swiper-button-prev {
     top: 83% !important; 
-    left: 97px !important;
+    left: 0 !important;
     /* transform: translateX(-50%)!important; */
   }
 }

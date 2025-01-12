@@ -1,5 +1,3 @@
-
-
 import Hero from "@/components/Hero";
 import Banefit from "@/components/Banefit";
 import Trending from "@/components/Trending";
@@ -8,26 +6,23 @@ import Offer from "@/components/card/Home/Offer";
 import Testimonial from "@/components/card/Home/Testimonial";
 import BlogCard from "@/components/card/BlogCard";
 import BlogePost from "@/components/BlogePost";
+import Choose from "@/components/Choose";
+import CategorySlider from "@/components/CategorySlider";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import CategoryProdects from "@/components/CategoryProdects";
 export default function Home() {
   return (
     <div className="">
-
       <Hero></Hero>
       <Banefit></Banefit>
+      <CategorySlider />
       <Trending></Trending>
-      <FlashDeals></FlashDeals>
-      <Offer></Offer>
+      <Choose />
+      <Offer />
+      <FeaturedProducts />
+      <CategoryProdects/>
       <Testimonial></Testimonial>
       <BlogePost></BlogePost>
-
-
-
-
-
-
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-
-      </footer>
     </div>
   );
 }

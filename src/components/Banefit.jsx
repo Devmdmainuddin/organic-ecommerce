@@ -5,7 +5,7 @@ import Container from './Container';
 const Banefit = () => {
 
   return (
-    <section className="Banefit-3 relative overflow-hidden mt-[130px]">
+    <section className="Banefit-3 relative overflow-hidden mt-[30px]">
         <Container>
           <div className="flex flex-wrap">
             <div className="w-full sm:w-1/2 lg:w-1/4 p-4">

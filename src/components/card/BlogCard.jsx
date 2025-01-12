@@ -12,7 +12,7 @@ const BlogCard = () => {
 
                 <div className='flex gap-[17px]'>
                     <div>
-                    <div class="w-[70px] h-[87px]  text-[#363636]  text-[25px] font-semibold leading-[28px] border border-[#C9C9C9] rounded-[10px] py-3 px-5">
+                    <div className="w-[70px] h-[87px]  text-[#363636]  text-[25px] font-semibold leading-[28px] border border-[#C9C9C9] rounded-[10px] py-3 px-5">
                        
                         <p className='w-[29px]'>16</p>
                         <p className='w-[29px]'>02</p>
@@ -21,7 +21,7 @@ const BlogCard = () => {
                    
                     <div>
 
-                        <h2 class="text-[#363636] font-inter text-[20px] font-semibold leading-[28px]">Green Onion Knife and
+                        <h2 className="text-[#363636] font-inter text-[20px] font-semibold leading-[28px]">Green Onion Knife and
                             salad placed</h2>
                         <p className='mt-[10px] text-[#6C6C6C] font-inter text-[16px] font-normal leading-[28px]'>Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. </p>
 

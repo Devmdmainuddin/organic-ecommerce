@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Blog = () => {
     return (
-        <div className="mt-[130px] ">
+        <div className="my-[130px] ">
             <Container>
                 <h2 className="text-[rgb(40,40,40)] font-inter text-[35px] font-bold leading-[42px] tracking-[0%] text-center ">Latest Blog</h2>
                 <div className=' flex flex-wrap justify-center gap-6 mt-[50px]'>
