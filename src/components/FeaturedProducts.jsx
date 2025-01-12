@@ -6,7 +6,7 @@ import { getProduct } from "@/services/productApi";
 
 const FeaturedProducts =async () => {
     const products = await getProduct()
-    console.log(products);
+   
     return (
         <div className="mt-[130px]">
             <Container>

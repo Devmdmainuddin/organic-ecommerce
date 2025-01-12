@@ -4,7 +4,7 @@ import ProductCard3 from "./card/ProductCard3";
 import Container from "./Container";
 import productData from "@/app/httpActions/product/data";
 const CategoryProdects = () => {
-    console.log("CategoryProdects",productData);
+    
     return (
         <div className="mt-[130px]">
             <Container>

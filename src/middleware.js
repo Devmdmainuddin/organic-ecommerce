@@ -5,7 +5,7 @@ export const middleware = async (request) => {
   const cookieStore = cookies();
   const token = cookieStore.get('next-auth.session-token');
 
-  console.log('Middleware token:', token);
+  
 
   if (!token) {
     return NextResponse.redirect(new URL('/login', request.url));

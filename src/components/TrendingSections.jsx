@@ -7,8 +7,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
 const TrendingSections = () => {
     const [items, setItems] = useState([]);
-    console.log(items);
-  
+
     return (
         <div className="mt-[130px]">
             <Container>

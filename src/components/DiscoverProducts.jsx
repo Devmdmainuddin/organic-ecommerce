@@ -7,7 +7,7 @@ import ProductCard2 from './card/ProductCard2';
 
 const DiscoverProducts = () => {
     const [items, setItems] = useState([]);
-    console.log(items);
+ 
     useEffect(() => {
         fetch('/fakeData.json')  
             .then((res) => res.json())
